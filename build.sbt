@@ -3,14 +3,26 @@ val scala3Version = "3.2.0"
 lazy val root = project
   .in(file("."))
   .settings(
-    name := "My beautiful project", // TODO: name your project
+    name := "SimpleWebServer",
     version := "0.1.0-SNAPSHOT",
-    developers := List( // TODO: replace the following developer by your team developers
+    developers := List(
       Developer(
-        id    = "johndoe",
-        name  = "John Doe",
-        email = "john.doe@gmail.com",
-        url   = url("https://github.com/johndoe")
+        id    = "flightmodee",
+        name  = "Samy Abdouche",
+        email = "samy.abdouche@edu.esiee.com",
+        url   = url("https://github.com/flightmodee")
+      )
+        Developer(
+        id    = "MelineDang",
+        name  = "Méline Dang",
+        email = "meline.dang@edu.esiee.fr",
+        url   = url("https://github.com/MelineDang")
+      )
+        Developer(
+        id    = "cai-i",
+        name  = "Isabelle Cai",
+        email = "isabelle.cai@edu.esiee.fr",
+        url   = url("https://github.com/cai-i")
       )
     ),
     scalaVersion := scala3Version,
